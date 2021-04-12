@@ -1,0 +1,19 @@
+{
+  "name": "wallet-modal",
+  "version": "1.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@walletconnect/client": "^1.4.1",
+    "@walletconnect/qrcode-modal": "^1.4.1"
+  }
+}
