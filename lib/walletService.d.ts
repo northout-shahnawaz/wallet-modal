@@ -1,9 +1,6 @@
-declare const connectWallet: () => void;
-/**
- * Method to disconnect from wallet
- *
- * Removes payload, uri and account datails from session
- */
-declare const killSession: () => void;
-export { connectWallet, killSession };
+declare const useWalletService: () => {
+    killSession: () => void;
+    connectWallet: () => void;
+};
+export default useWalletService;
 //# sourceMappingURL=walletService.d.ts.map
